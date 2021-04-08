@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- css -->
+    <style>
+        .nav-link {
+            font-size: 19.2px;
+        }
+
+        /* konten */
+        .jumbotron {
+            padding-top: 6rem;
+            background-color: #212529;
+        }
+
+        .judul {
+            color: white;
+        }
+
+        .judul1 {
+            margin-bottom: 5rem;
+            margin-top: -10px;
+            color: #009e66;
+        }
+
+        .subjudul {
+            font-size: small;
+            opacity: 70%;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .message {
+            margin-top: -50px;
+            opacity: 70%;
+            font-size: x-large;
+        }
+
+        .btn {
+            width: 100px;
+            margin-top: 10px;
+        }
+
+        /* gambar */
+        .gambar {
+            width: 2%;
+            margin: auto 20px 30px auto;
+        }
+
+        /* garis */
+        .garis {
+            color: #009e66;
+            width: 100px;
+            margin: -50px auto 70px auto;
+        }
+
+        .garis2 {
+            color: #009e66;
+            width: 800px;
+            margin: 30px auto 30px auto;
+            border: 2px;
+            height: 1px;
+        }
+    </style>
+    <link rel="icon" href="image/logo.svg">
+    <title>DONNY PRATAMA</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.svg" alt="" width="30" height="24" class="logo d-inline-block align-text-top" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto  ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- konten -->
+    <div class="jumbotron">
+        <div class="container">
+            <p class="judul subjudul text-center">Feel free to contact me anytimes</p>
+            <h1 class="judul judul1 fw-bold text-center">Get in Touch</h1>
+            <hr class="garis">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2 class="judul message">Message Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="subjudul form-label">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="subjudul form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="subjudul form-label">Message</label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                        </div>
+                        <a type="submit" class="btn btn-outline-success" href="mailto:donnypratamae@gmail.com">Send</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr class="garis2">
+        <div class="text-center konten">
+            <div class="text-center">
+                <a href="https://www.instagram.com/donzpx/"><img class="gambar img-fluid" src="image/instagram.png"
+                        alt="..."></a>
+                <a href="https://api.whatsapp.com/send? phone=082322726422"><img class="gambar img-fluid"
+                        src="image/whatsapp.png" alt="..."></a>
+                <a href="https://github.com/donnypratamae"><img class="gambar img-fluid" src="image/github.png"
+                        alt="..."></a>
+                <a href="https://twitter.com/donzpx"><img class="gambar img-fluid" src="image/twitter.png"
+                        alt="..."></a>
+                <a href="https://www.linkedin.com/in/donnypratama"><img class="gambar img-fluid"
+                        src="image/linkedin.png" alt="..."></a>
+            </div>
+        </div>
+    </div>
+    <!-- akhir konten -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

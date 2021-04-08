@@ -1,0 +1,98 @@
+.jumbotron {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 45, 1);
+    background: rgba(0, 0, 45, 1) z-index: 1;
+    opacity: 0.85;
+}
+
+.content {
+    z-index: 99;
+    width: 400px;
+    margin: auto;
+}
+
+a {
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* tombol */
+.btn {
+    margin-top: 10px;
+    color: white;
+}
+
+
+/* animsi mengetik */
+.content {
+    font: x-large;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 3s steps(27, end);
+    animation: typing 3s steps(27, end);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+
+.konten {
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+}
+
+.gambar {
+    width: 2%;
+    margin: 0 10px 10px 0;
+}
